@@ -1,0 +1,189 @@
+.nav-link {
+  color: white;
+  margin-right: 20px;
+}
+.icon-rtl {
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat right;
+  background-size: 20px;
+  background-color: white;
+  padding-right: 25px;
+}
+input {
+  padding: 15px;
+  border-radius: 20px;
+  border-style: none;
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 50px;
+}
+.horizontal_line {
+  margin-top: -15px;
+  width: 5%;
+  height: 2px;
+  border-top: 5px solid white;
+  line-height: 80%;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.line {
+  border-bottom: 5px solid white;
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.flex-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box {
+  margin-top: 40px;
+}
+.box1 {
+  background-color: #e5d8ff;
+  margin-top: 40px;
+  margin-left: 20px;
+  padding: 20px;
+  height: 260px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+img {
+  height: 290px;
+  width: 250px;
+}
+
+.flex-parent1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  background-color: #929dff;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 20px;
+  height: 90px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+}
+
+.parent {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 860px;
+  margin-left: 210px;
+  border-radius: 10px;
+  background-color: #483eff;
+  margin-bottom: 10px;
+}
+
+.child {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+  margin-right: 20px;
+  padding: 20px;
+}
+.child1 {
+  display: inline-block;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+button {
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  border: 10px solid white;
+  background: transparent;
+  border-width: 2px;
+  color: white;
+}
+
+#btn {
+  color: black;
+  font-weight: bold;
+  background-color: #bce0f6;
+  border: none;
+}
+ul {
+  list-style: none;
+  display: table;
+}
+
+li {
+  display: table-row;
+  line-height: 30px;
+}
+
+b {
+  display: table-cell;
+  padding-right: 1em;
+}
+#next {
+  background-color: black;
+  width: 100px;
+  height: 40px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  transform: translate(1180px, 0px);
+}
+.icon-bar img {
+  height: 40px;
+  width: 40px;
+}
+
+.facebook {
+  background: white;
+}
+
+.twitter {
+  background: white;
+}
+
+.whatsapp {
+  background: white;
+}
+.footer img {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 100px;
+  bottom: 1px;
+}
